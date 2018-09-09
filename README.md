@@ -14,10 +14,10 @@ A simple usage example:
 
 properties | description
 --------|------------
-currentColor | RGB color in `List<int>`, defaults to [255, 255, 255] (optional)
+currentColor | RGB color in `List<int>`, defaults to `List<int> [255, 255, 255]` (optional)
 callback | Function called after every transition (optional)
-fps | defaults to 30 (optional)
-duration | defaults to 3 (optional)
+fps | defaults to `int 30` (optional)
+duration | defaults to `int 3` (optional)
 
 methods | description
 --------|------------
