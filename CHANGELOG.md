@@ -1,7 +1,11 @@
-### 0.0.1
+### 0.0.3
 
-* Initial version, created by RiftNinja.
+* Fixed readme issues.
 
 ### 0.0.2
 
 * Improved example and readme.
+
+### 0.0.1
+
+* Initial version, created by RiftNinja.
