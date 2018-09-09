@@ -14,7 +14,7 @@ A simple usage example:
         print(currentColor);
     }).init();
 
-###properties
+### properties
 currentColor: RGB color in `List<int>`, defaults to `List<int> [255, 255, 255]` (optional)
 
 callback: Function called after every transition (optional)
@@ -23,7 +23,7 @@ duration: defaults to `int 3` (optional)
 
 fps: defaults to `int 30` (optional)
 
-###methods
+### methods
 init: starts color transition
 
 cancel: ends/cancels color transition
