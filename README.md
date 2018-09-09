@@ -1,5 +1,7 @@
 # color_transition
 
+[![pub package](https://img.shields.io/pub/v/color_transition.svg)](https://pub.dartlang.org/packages/color_transition)
+
 A dart package for continuous color transition.
 
 ## Usage
@@ -12,18 +14,21 @@ A simple usage example:
         print(currentColor);
     }).init();
 
-properties | description
---------|------------
-currentColor | RGB color in `List<int>`, defaults to `List<int> [255, 255, 255]` (optional)
-callback | Function called after every transition (optional)
-fps | defaults to `int 30` (optional)
-duration | defaults to `int 3` (optional)
+###properties
+currentColor: RGB color in `List<int>`, defaults to `List<int> [255, 255, 255]` (optional)
 
-methods | description
---------|------------
-init | starts color transition
-generateRGB | Returns `List<int>` representing a random RGB value
-cancel | ends/cancels color transition
+callback: Function called after every transition (optional)
+
+duration: defaults to `int 3` (optional)
+
+fps: defaults to `int 30` (optional)
+
+###methods
+init: starts color transition
+
+cancel: ends/cancels color transition
+
+generateRGB: Returns `List<int>` representing a random RGB value
 
 ## Features and bugs
 

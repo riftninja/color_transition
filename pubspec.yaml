@@ -1,6 +1,6 @@
 name: color_transition
 description: A dart package for continuous color transition.
-version: 0.0.1
+version: 0.0.2
 author: RiftNinja <riftninja@codecounty.com>
 homepage: https://github.com/riftninja/color_transition
 
